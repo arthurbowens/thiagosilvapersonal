@@ -26,12 +26,6 @@ import { SITE } from '../../../core/site.constants';
               objetivo, horários e formato (presencial ou combinados) — te explico como
               começar, sem compromisso.
             </p>
-            <p class="mt-4 text-sm text-zinc-400">
-              E-mail:
-              <a class="text-red-500 underline-offset-2 hover:underline" [href]="mailTo">{{
-                site.email
-              }}</a>
-            </p>
           </div>
           <div class="mt-8 flex shrink-0 flex-col gap-4 sm:flex-row lg:mt-0 lg:flex-col">
             <a
@@ -50,5 +44,4 @@ import { SITE } from '../../../core/site.constants';
 })
 export class ContactSectionComponent {
   protected readonly site = SITE;
-  protected readonly mailTo = `mailto:${SITE.email}?subject=Contato%20via%20site%20-%20Personal%20trainer`;
 }

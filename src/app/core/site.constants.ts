@@ -1,4 +1,7 @@
-/** Conteúdo da landing em pt-BR — ajuste links e telefone quando publicar. */
+/** Conteúdo da landing em pt-BR */
+const WHATSAPP_NUMBER = '5527997043685'; // +55 27 99704-3685
+const WHATSAPP_MESSAGE = 'Olá, Thiago! Vim pelo site e quero começar meu plano.';
+
 export const SITE = {
   coachName: 'Thiago Silva',
   title: 'Thiago Silva — Personal Trainer',
@@ -20,9 +23,10 @@ export const SITE = {
     'Ganho de massa com treino bem direcionado',
     'Consistência na semana, mesmo com agenda corrida',
   ],
-  /** Substitua pelo seu número internacional sem símbolos, ex.: 5511999998888 */
-  whatsappHref: 'https://wa.me/5511999999999?text=Ol%C3%A1%2C%20Thiago%21%20Gostaria%20de%20saber%20mais%20sobre%20os%20treinos.',
-  email: 'contato@thiagosilvapersonal.com.br',
+  /** Número internacional sem símbolos: +55 27 99704-3685 */
+  whatsappNumber: WHATSAPP_NUMBER,
+  whatsappMessage: WHATSAPP_MESSAGE,
+  whatsappHref: `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`,
 } as const;
 
 export const NAV_LINKS = [
