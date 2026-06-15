@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   template: `
     <section
       id="diferenciais"
-      class="scroll-mt-24 bg-gradient-to-b from-slate-900 to-slate-950 py-16 sm:py-24"
+      class="scroll-mt-24 bg-gradient-to-b from-zinc-950 to-black py-16 sm:py-24"
       aria-labelledby="diff-heading"
     >
       <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
@@ -22,12 +22,12 @@ import { Component } from '@angular/core';
         >
           @for (item of items; track item.title) {
             <li
-              class="rounded-2xl border border-white/5 bg-slate-950/80 p-5 ring-1 ring-white/5"
+              class="rounded-2xl border border-white/5 bg-black/80 p-5 ring-1 ring-white/5"
             >
-              <p class="font-display text-lg font-semibold text-emerald-400">
+              <p class="font-display text-lg font-semibold text-red-500">
                 {{ item.title }}
               </p>
-              <p class="mt-2 text-sm leading-relaxed text-slate-400">{{ item.text }}</p>
+              <p class="mt-2 text-sm leading-relaxed text-zinc-400">{{ item.text }}</p>
             </li>
           }
         </ul>

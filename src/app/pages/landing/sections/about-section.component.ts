@@ -7,7 +7,7 @@ import { SITE } from '../../../core/site.constants';
   template: `
     <section
       id="sobre"
-      class="scroll-mt-24 border-b border-white/5 bg-slate-900 py-16 sm:py-24"
+      class="scroll-mt-24 border-b border-white/5 bg-zinc-950 py-16 sm:py-24"
       aria-labelledby="about-heading"
     >
       <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
@@ -19,34 +19,34 @@ import { SITE } from '../../../core/site.constants';
             >
               Sobre mim
             </h2>
-            <p class="mt-6 text-lg leading-relaxed text-slate-300">
+            <p class="mt-6 text-lg leading-relaxed text-zinc-300">
               Há mais de 10 anos ajudo pessoas a transformarem o corpo e a rotina através
               do treino.
             </p>
-            <p class="mt-4 text-base font-semibold uppercase tracking-wide text-slate-400">
+            <p class="mt-4 text-base font-semibold uppercase tracking-wide text-zinc-400">
               Meu método combina
             </p>
-            <ul class="mt-3 space-y-2 text-lg text-slate-300" role="list">
+            <ul class="mt-3 space-y-2 text-lg text-zinc-300" role="list">
               <li class="flex gap-2">
-                <span class="text-emerald-400" aria-hidden="true">✔</span>
+                <span class="text-red-500" aria-hidden="true">✔</span>
                 <span>treino funcional</span>
               </li>
               <li class="flex gap-2">
-                <span class="text-emerald-400" aria-hidden="true">✔</span>
+                <span class="text-red-500" aria-hidden="true">✔</span>
                 <span>periodização</span>
               </li>
               <li class="flex gap-2">
-                <span class="text-emerald-400" aria-hidden="true">✔</span>
+                <span class="text-red-500" aria-hidden="true">✔</span>
                 <span>acompanhamento próximo</span>
               </li>
             </ul>
-            <p class="mt-6 text-lg leading-relaxed text-slate-300">
+            <p class="mt-6 text-lg leading-relaxed text-zinc-300">
               Com a energia das aulas coletivas — tornando o processo mais leve e
               sustentável.
             </p>
             <p class="mt-4 text-lg font-medium leading-relaxed text-white">
               Nada de fórmula mágica:
-              <span class="text-emerald-400">é estratégia, consistência e evolução real.</span>
+              <span class="text-red-500">é estratégia, consistência e evolução real.</span>
             </p>
           </div>
           <div class="order-1 lg:order-2">
@@ -62,7 +62,7 @@ import { SITE } from '../../../core/site.constants';
                 loading="lazy"
               />
               <div
-                class="absolute right-4 top-4 rounded-full bg-emerald-500 px-3 py-1 text-xs font-bold uppercase tracking-wide text-slate-950"
+                class="absolute right-4 top-4 rounded-full bg-red-600 px-3 py-1 text-xs font-bold uppercase tracking-wide text-white"
               >
                 ZIN · Cycling
               </div>

@@ -3,6 +3,8 @@ export const SITE = {
   coachName: 'Thiago Silva',
   title: 'Thiago Silva — Personal Trainer',
   tagline: 'Treino estruturado — resultado na sua rotina.',
+  logoSrc: '/images/logo.png',
+  logoAlt: 'Thiago Silva — Personal Trainer',
   heroImageSrc: '/images/foto1.jpeg',
   heroImageAlt:
     'Thiago Silva, personal trainer sorrindo na academia, com camiseta Thiago Silva Training',

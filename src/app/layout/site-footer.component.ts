@@ -5,8 +5,17 @@ import { SITE } from '../core/site.constants';
   selector: 'app-site-footer',
   imports: [],
   template: `
-    <footer class="border-t border-white/10 bg-slate-950 py-10 text-center text-slate-500">
-      <p class="text-sm">
+    <footer class="border-t border-white/10 bg-black py-10 text-center text-zinc-500">
+      <img
+        class="mx-auto h-14 w-auto opacity-90 sm:h-16"
+        [src]="site.logoSrc"
+        [alt]="site.logoAlt"
+        width="260"
+        height="70"
+        loading="lazy"
+        decoding="async"
+      />
+      <p class="mt-6 text-sm">
         © {{ year }} {{ site.coachName }}. Todos os direitos reservados.
       </p>
       <p class="mt-2 text-xs">Treinos presenciais e orientação personalizada.</p>

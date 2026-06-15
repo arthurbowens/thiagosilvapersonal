@@ -21,7 +21,7 @@ import { SocialProofSectionComponent } from './sections/social-proof-section.com
     SiteFooterComponent,
   ],
   template: `
-    <div class="min-h-screen bg-slate-950 text-slate-200 antialiased">
+    <div class="min-h-screen bg-black text-zinc-200 antialiased">
       <app-site-header />
       <main>
         <app-hero-section />

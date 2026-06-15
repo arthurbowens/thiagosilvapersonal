@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   template: `
     <section
       id="servicos"
-      class="scroll-mt-24 border-b border-white/5 bg-slate-950 py-16 sm:py-24"
+      class="scroll-mt-24 border-b border-white/5 bg-black py-16 sm:py-24"
       aria-labelledby="services-heading"
     >
       <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
@@ -17,7 +17,7 @@ import { Component } from '@angular/core';
           >
             Serviços
           </h2>
-          <p class="mt-4 text-lg text-slate-400">
+          <p class="mt-4 text-lg text-zinc-400">
             Cada serviço traduz técnica em benefício: menos tempo perdido na academia, mais
             evolução com segurança — do primeiro mês ao plano de longo prazo.
           </p>
@@ -28,13 +28,13 @@ import { Component } from '@angular/core';
         >
           @for (card of cards; track card.title) {
             <li
-              class="flex flex-col rounded-2xl border border-white/10 bg-slate-900/60 p-6 shadow-lg transition hover:border-emerald-500/30 hover:bg-slate-900"
+              class="flex flex-col rounded-2xl border border-white/10 bg-zinc-950/60 p-6 shadow-lg transition hover:border-red-600/30 hover:bg-zinc-950"
             >
               <span class="text-2xl" aria-hidden="true">{{ card.icon }}</span>
               <h3 class="mt-4 font-display text-xl font-semibold text-white">
                 {{ card.title }}
               </h3>
-              <p class="mt-2 flex-1 text-sm leading-relaxed text-slate-400">
+              <p class="mt-2 flex-1 text-sm leading-relaxed text-zinc-400">
                 {{ card.body }}
               </p>
             </li>
