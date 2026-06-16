@@ -51,7 +51,7 @@ export class DifferentialsSectionComponent {
     },
     {
       title: 'Segurança em 1º lugar',
-      text: 'Progressão respeitando limites, histórico e biomecânica — treino inteligente.',
+      text: 'Progressão respeitando limites, histórico e biomecânica, com treino inteligente.',
     },
   ] as const;
 }

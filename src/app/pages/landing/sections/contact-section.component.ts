@@ -23,7 +23,7 @@ import { SITE } from '../../../core/site.constants';
             </h2>
             <p class="mt-4 max-w-xl text-lg text-zinc-300">
               Me chama no WhatsApp agora: a gente pode montar seu plano ainda hoje. Alinhamos
-              objetivo, horários e formato (presencial ou combinados) — te explico como
+              objetivo, horários e formato (presencial ou combinados). Te explico como
               começar, sem compromisso.
             </p>
           </div>

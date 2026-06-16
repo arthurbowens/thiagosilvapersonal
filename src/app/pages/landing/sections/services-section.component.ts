@@ -19,7 +19,7 @@ import { Component } from '@angular/core';
           </h2>
           <p class="mt-4 text-lg text-zinc-400">
             Cada serviço traduz técnica em benefício: menos tempo perdido na academia, mais
-            evolução com segurança — do primeiro mês ao plano de longo prazo.
+            evolução com segurança, do primeiro mês ao plano de longo prazo.
           </p>
         </div>
         <ul
@@ -49,7 +49,7 @@ export class ServicesSectionComponent {
     {
       icon: '🎯',
       title: 'Personal training',
-      body: 'Treinos feitos pra você evoluir mais rápido, evitar lesões e não perder tempo na academia — com técnica corrigida na hora e plano alinhado ao seu objetivo.',
+      body: 'Treinos feitos pra você evoluir mais rápido, evitar lesões e não perder tempo na academia, com técnica corrigida na hora e plano alinhado ao seu objetivo.',
     },
     {
       icon: '🔥',
@@ -59,12 +59,12 @@ export class ServicesSectionComponent {
     {
       icon: '💪',
       title: 'Ganho de massa muscular',
-      body: 'Progressão inteligente de carga e volume para resultado visível — sem estagnar no mesmo treino de sempre.',
+      body: 'Progressão inteligente de carga e volume para resultado visível, sem estagnar no mesmo treino de sempre.',
     },
     {
       icon: '🚴',
       title: 'Indoor cycling',
-      body: 'Cardio forte com segurança no pedal e intensidade sob controle — queima real, postura cuidada e energia de sala.',
+      body: 'Cardio forte com segurança no pedal e intensidade sob controle: queima real, postura cuidada e energia de sala.',
     },
     {
       icon: '💃',
@@ -74,7 +74,7 @@ export class ServicesSectionComponent {
     {
       icon: '📋',
       title: 'Orientação e acompanhamento',
-      body: 'Ajustes rápidos no plano, feedback próximo e metas claras — pra você não desandar quando a rotina aperta.',
+      body: 'Ajustes rápidos no plano, feedback próximo e metas claras pra você não desandar quando a rotina aperta.',
     },
   ] as const;
 }

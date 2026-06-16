@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { Meta, Title } from '@angular/platform-browser';
 import { RouterOutlet } from '@angular/router';
+import { applySiteSeo } from './core/site-seo';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,8 @@ import { RouterOutlet } from '@angular/router';
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
-export class App {}
+export class App {
+  constructor() {
+    applySiteSeo(inject(Meta), inject(Title));
+  }
+}

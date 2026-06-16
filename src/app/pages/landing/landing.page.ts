@@ -5,6 +5,7 @@ import { AboutSectionComponent } from './sections/about-section.component';
 import { ContactSectionComponent } from './sections/contact-section.component';
 import { DifferentialsSectionComponent } from './sections/differentials-section.component';
 import { HeroSectionComponent } from './sections/hero-section.component';
+import { PricingSectionComponent } from './sections/pricing-section.component';
 import { ServicesSectionComponent } from './sections/services-section.component';
 import { SocialProofSectionComponent } from './sections/social-proof-section.component';
 
@@ -15,6 +16,7 @@ import { SocialProofSectionComponent } from './sections/social-proof-section.com
     HeroSectionComponent,
     AboutSectionComponent,
     ServicesSectionComponent,
+    PricingSectionComponent,
     SocialProofSectionComponent,
     DifferentialsSectionComponent,
     ContactSectionComponent,
@@ -27,6 +29,7 @@ import { SocialProofSectionComponent } from './sections/social-proof-section.com
         <app-hero-section />
         <app-about-section />
         <app-services-section />
+        <app-pricing-section />
         <app-social-proof-section />
         <app-differentials-section />
         <app-contact-section />

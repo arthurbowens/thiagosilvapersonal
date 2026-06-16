@@ -28,7 +28,7 @@ import { SITE } from '../../../core/site.constants';
             id="hero-heading"
             class="font-display text-4xl font-bold tracking-tight text-white sm:text-5xl lg:text-6xl"
           >
-            Emagreça ou ganhe massa com um plano que cabe na sua rotina —
+            Emagreça ou ganhe massa com um plano que cabe na sua rotina,
             <span class="text-red-500">sem achismos, só método.</span>
           </h1>
           <p class="mt-6 max-w-xl text-lg leading-relaxed text-zinc-300">

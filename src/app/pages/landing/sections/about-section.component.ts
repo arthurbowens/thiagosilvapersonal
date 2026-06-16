@@ -41,7 +41,7 @@ import { SITE } from '../../../core/site.constants';
               </li>
             </ul>
             <p class="mt-6 text-lg leading-relaxed text-zinc-300">
-              Com a energia das aulas coletivas — tornando o processo mais leve e
+              Com a energia das aulas coletivas, tornando o processo mais leve e
               sustentável.
             </p>
             <p class="mt-4 text-lg font-medium leading-relaxed text-white">
